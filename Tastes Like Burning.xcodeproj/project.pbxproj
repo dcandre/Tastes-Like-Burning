@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65C9BC4A211A2EEA00822F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9BC49211A2EEA00822F65 /* AppDelegate.swift */; };
+		65C9BC4C211A2EEA00822F65 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C9BC4B211A2EEA00822F65 /* art.scnassets */; };
+		65C9BC4E211A2EEA00822F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9BC4D211A2EEA00822F65 /* ViewController.swift */; };
+		65C9BC51211A2EEA00822F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C9BC4F211A2EEA00822F65 /* Main.storyboard */; };
+		65C9BC53211A2EEB00822F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C9BC52211A2EEB00822F65 /* Assets.xcassets */; };
+		65C9BC56211A2EEB00822F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C9BC54211A2EEB00822F65 /* LaunchScreen.storyboard */; };
+		65C9BC61211A2EEC00822F65 /* Tastes_Like_BurningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9BC60211A2EEC00822F65 /* Tastes_Like_BurningTests.swift */; };
+		65C9BC6C211A2EEC00822F65 /* Tastes_Like_BurningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9BC6B211A2EEC00822F65 /* Tastes_Like_BurningUITests.swift */; };
+		65C9BC7A211A306000822F65 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9BC79211A306000822F65 /* ARSceneView.swift */; };
+		65C9BC7C211A435A00822F65 /* Mouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9BC7B211A435A00822F65 /* Mouth.swift */; };
+		65C9BC8C211A857100822F65 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C9BC8A211A857100822F65 /* spark.png */; };
+		65C9BC8D211A857100822F65 /* Fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 65C9BC8B211A857100822F65 /* Fire.scnp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65C9BC5D211A2EEC00822F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C9BC3E211A2EEA00822F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C9BC45211A2EEA00822F65;
+			remoteInfo = "Tastes Like Burning";
+		};
+		65C9BC68211A2EEC00822F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C9BC3E211A2EEA00822F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C9BC45211A2EEA00822F65;
+			remoteInfo = "Tastes Like Burning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65C9BC46211A2EEA00822F65 /* Tastes Like Burning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tastes Like Burning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9BC49211A2EEA00822F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65C9BC4B211A2EEA00822F65 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		65C9BC4D211A2EEA00822F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65C9BC50211A2EEA00822F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65C9BC52211A2EEB00822F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C9BC55211A2EEB00822F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C9BC57211A2EEB00822F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C9BC5C211A2EEC00822F65 /* Tastes Like BurningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tastes Like BurningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9BC60211A2EEC00822F65 /* Tastes_Like_BurningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tastes_Like_BurningTests.swift; sourceTree = "<group>"; };
+		65C9BC62211A2EEC00822F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C9BC67211A2EEC00822F65 /* Tastes Like BurningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tastes Like BurningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9BC6B211A2EEC00822F65 /* Tastes_Like_BurningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tastes_Like_BurningUITests.swift; sourceTree = "<group>"; };
+		65C9BC6D211A2EEC00822F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C9BC79211A306000822F65 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
+		65C9BC7B211A435A00822F65 /* Mouth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouth.swift; sourceTree = "<group>"; };
+		65C9BC8A211A857100822F65 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		65C9BC8B211A857100822F65 /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C9BC43211A2EEA00822F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C9BC59211A2EEC00822F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C9BC64211A2EEC00822F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65C9BC3D211A2EEA00822F65 = {
+			isa = PBXGroup;
+			children = (
+				65C9BC48211A2EEA00822F65 /* Tastes Like Burning */,
+				65C9BC5F211A2EEC00822F65 /* Tastes Like BurningTests */,
+				65C9BC6A211A2EEC00822F65 /* Tastes Like BurningUITests */,
+				65C9BC47211A2EEA00822F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65C9BC47211A2EEA00822F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C9BC46211A2EEA00822F65 /* Tastes Like Burning.app */,
+				65C9BC5C211A2EEC00822F65 /* Tastes Like BurningTests.xctest */,
+				65C9BC67211A2EEC00822F65 /* Tastes Like BurningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C9BC48211A2EEA00822F65 /* Tastes Like Burning */ = {
+			isa = PBXGroup;
+			children = (
+				65C9BC7D211A83E200822F65 /* Fire */,
+				65C9BC49211A2EEA00822F65 /* AppDelegate.swift */,
+				65C9BC4B211A2EEA00822F65 /* art.scnassets */,
+				65C9BC4D211A2EEA00822F65 /* ViewController.swift */,
+				65C9BC4F211A2EEA00822F65 /* Main.storyboard */,
+				65C9BC52211A2EEB00822F65 /* Assets.xcassets */,
+				65C9BC54211A2EEB00822F65 /* LaunchScreen.storyboard */,
+				65C9BC57211A2EEB00822F65 /* Info.plist */,
+				65C9BC79211A306000822F65 /* ARSceneView.swift */,
+				65C9BC7B211A435A00822F65 /* Mouth.swift */,
+			);
+			path = "Tastes Like Burning";
+			sourceTree = "<group>";
+		};
+		65C9BC5F211A2EEC00822F65 /* Tastes Like BurningTests */ = {
+			isa = PBXGroup;
+			children = (
+				65C9BC60211A2EEC00822F65 /* Tastes_Like_BurningTests.swift */,
+				65C9BC62211A2EEC00822F65 /* Info.plist */,
+			);
+			path = "Tastes Like BurningTests";
+			sourceTree = "<group>";
+		};
+		65C9BC6A211A2EEC00822F65 /* Tastes Like BurningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65C9BC6B211A2EEC00822F65 /* Tastes_Like_BurningUITests.swift */,
+				65C9BC6D211A2EEC00822F65 /* Info.plist */,
+			);
+			path = "Tastes Like BurningUITests";
+			sourceTree = "<group>";
+		};
+		65C9BC7D211A83E200822F65 /* Fire */ = {
+			isa = PBXGroup;
+			children = (
+				65C9BC8A211A857100822F65 /* spark.png */,
+				65C9BC8B211A857100822F65 /* Fire.scnp */,
+			);
+			path = Fire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C9BC45211A2EEA00822F65 /* Tastes Like Burning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C9BC70211A2EEC00822F65 /* Build configuration list for PBXNativeTarget "Tastes Like Burning" */;
+			buildPhases = (
+				65C9BC42211A2EEA00822F65 /* Sources */,
+				65C9BC43211A2EEA00822F65 /* Frameworks */,
+				65C9BC44211A2EEA00822F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tastes Like Burning";
+			productName = "Tastes Like Burning";
+			productReference = 65C9BC46211A2EEA00822F65 /* Tastes Like Burning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65C9BC5B211A2EEC00822F65 /* Tastes Like BurningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C9BC73211A2EEC00822F65 /* Build configuration list for PBXNativeTarget "Tastes Like BurningTests" */;
+			buildPhases = (
+				65C9BC58211A2EEC00822F65 /* Sources */,
+				65C9BC59211A2EEC00822F65 /* Frameworks */,
+				65C9BC5A211A2EEC00822F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C9BC5E211A2EEC00822F65 /* PBXTargetDependency */,
+			);
+			name = "Tastes Like BurningTests";
+			productName = "Tastes Like BurningTests";
+			productReference = 65C9BC5C211A2EEC00822F65 /* Tastes Like BurningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65C9BC66211A2EEC00822F65 /* Tastes Like BurningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C9BC76211A2EEC00822F65 /* Build configuration list for PBXNativeTarget "Tastes Like BurningUITests" */;
+			buildPhases = (
+				65C9BC63211A2EEC00822F65 /* Sources */,
+				65C9BC64211A2EEC00822F65 /* Frameworks */,
+				65C9BC65211A2EEC00822F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C9BC69211A2EEC00822F65 /* PBXTargetDependency */,
+			);
+			name = "Tastes Like BurningUITests";
+			productName = "Tastes Like BurningUITests";
+			productReference = 65C9BC67211A2EEC00822F65 /* Tastes Like BurningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C9BC3E211A2EEA00822F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Derek Andre";
+				TargetAttributes = {
+					65C9BC45211A2EEA00822F65 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					65C9BC5B211A2EEC00822F65 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 65C9BC45211A2EEA00822F65;
+					};
+					65C9BC66211A2EEC00822F65 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 65C9BC45211A2EEA00822F65;
+					};
+				};
+			};
+			buildConfigurationList = 65C9BC41211A2EEA00822F65 /* Build configuration list for PBXProject "Tastes Like Burning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C9BC3D211A2EEA00822F65;
+			productRefGroup = 65C9BC47211A2EEA00822F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C9BC45211A2EEA00822F65 /* Tastes Like Burning */,
+				65C9BC5B211A2EEC00822F65 /* Tastes Like BurningTests */,
+				65C9BC66211A2EEC00822F65 /* Tastes Like BurningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C9BC44211A2EEA00822F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9BC8C211A857100822F65 /* spark.png in Resources */,
+				65C9BC8D211A857100822F65 /* Fire.scnp in Resources */,
+				65C9BC4C211A2EEA00822F65 /* art.scnassets in Resources */,
+				65C9BC56211A2EEB00822F65 /* LaunchScreen.storyboard in Resources */,
+				65C9BC53211A2EEB00822F65 /* Assets.xcassets in Resources */,
+				65C9BC51211A2EEA00822F65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C9BC5A211A2EEC00822F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C9BC65211A2EEC00822F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C9BC42211A2EEA00822F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9BC7C211A435A00822F65 /* Mouth.swift in Sources */,
+				65C9BC4E211A2EEA00822F65 /* ViewController.swift in Sources */,
+				65C9BC7A211A306000822F65 /* ARSceneView.swift in Sources */,
+				65C9BC4A211A2EEA00822F65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C9BC58211A2EEC00822F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9BC61211A2EEC00822F65 /* Tastes_Like_BurningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C9BC63211A2EEC00822F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9BC6C211A2EEC00822F65 /* Tastes_Like_BurningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C9BC5E211A2EEC00822F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C9BC45211A2EEA00822F65 /* Tastes Like Burning */;
+			targetProxy = 65C9BC5D211A2EEC00822F65 /* PBXContainerItemProxy */;
+		};
+		65C9BC69211A2EEC00822F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C9BC45211A2EEA00822F65 /* Tastes Like Burning */;
+			targetProxy = 65C9BC68211A2EEC00822F65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65C9BC4F211A2EEA00822F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C9BC50211A2EEA00822F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65C9BC54211A2EEB00822F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C9BC55211A2EEB00822F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65C9BC6E211A2EEC00822F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65C9BC6F211A2EEC00822F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C9BC71211A2EEC00822F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8U5FR4Y9;
+				INFOPLIST_FILE = "Tastes Like Burning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekandre.Tastes-Like-Burning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C9BC72211A2EEC00822F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8U5FR4Y9;
+				INFOPLIST_FILE = "Tastes Like Burning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekandre.Tastes-Like-Burning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65C9BC74211A2EEC00822F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8U5FR4Y9;
+				INFOPLIST_FILE = "Tastes Like BurningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekandre.Tastes-Like-BurningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tastes Like Burning.app/Tastes Like Burning";
+			};
+			name = Debug;
+		};
+		65C9BC75211A2EEC00822F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8U5FR4Y9;
+				INFOPLIST_FILE = "Tastes Like BurningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekandre.Tastes-Like-BurningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tastes Like Burning.app/Tastes Like Burning";
+			};
+			name = Release;
+		};
+		65C9BC77211A2EEC00822F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8U5FR4Y9;
+				INFOPLIST_FILE = "Tastes Like BurningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekandre.Tastes-Like-BurningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tastes Like Burning";
+			};
+			name = Debug;
+		};
+		65C9BC78211A2EEC00822F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8U5FR4Y9;
+				INFOPLIST_FILE = "Tastes Like BurningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekandre.Tastes-Like-BurningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tastes Like Burning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C9BC41211A2EEA00822F65 /* Build configuration list for PBXProject "Tastes Like Burning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C9BC6E211A2EEC00822F65 /* Debug */,
+				65C9BC6F211A2EEC00822F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C9BC70211A2EEC00822F65 /* Build configuration list for PBXNativeTarget "Tastes Like Burning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C9BC71211A2EEC00822F65 /* Debug */,
+				65C9BC72211A2EEC00822F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C9BC73211A2EEC00822F65 /* Build configuration list for PBXNativeTarget "Tastes Like BurningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C9BC74211A2EEC00822F65 /* Debug */,
+				65C9BC75211A2EEC00822F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C9BC76211A2EEC00822F65 /* Build configuration list for PBXNativeTarget "Tastes Like BurningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C9BC77211A2EEC00822F65 /* Debug */,
+				65C9BC78211A2EEC00822F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65C9BC3E211A2EEA00822F65 /* Project object */;
+}
